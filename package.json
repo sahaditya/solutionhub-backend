@@ -1,0 +1,24 @@
+{
+  "name": "solutionhub",
+  "version": "0.0.0",
+  "description": "solutionhub",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahaditya/solutionhub-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sahaditya/solutionhub-backend/issues"
+  },
+  "homepage": "https://github.com/sahaditya/solutionhub-backend#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.4.19",
+    "validator": "^10.11.0"
+  }
+}
