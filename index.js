@@ -1,10 +1,12 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
+const cors = require('cors');
 const routePage = require('./routes/route')
 const dbConfig = require('./dbConfig/databaseConfig')
 
 const app = express();
+app.use(cors({ credentials: true, origin: true }));
 app.use(bodyParser.json());
 app.get('/', (req, res)=>{res.json({message : 'Welcome to solution hub'});});
 app.use('/route', routePage);
